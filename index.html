@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: #D6E1EF;
+      height: 100vh;
+    }
+
+    .outer-panel {
+      background-color: hsl(0, 0%, 100%);
+      border-radius: 20px;
+      box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      text-align: center;
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .inner-panel {
+      background-color: hsl(224, 65%, 49%);
+      border-radius: 5px;
+      box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      text-align: center;
+    }
+
+    .qr-code {
+      width: 100%;
+      border-radius: 15px;
+    }
+
+    .title {
+      color: black;
+      font-size: 22px;
+      font-weight: bold;
+      margin-top: 20px;
+      font-family: 'Poppins', sans-serif;
+      margin-bottom: 10px;
+    }
+
+    .description {
+      color: grey;
+      font-size: 16px;
+      font-family: 'Poppins', sans-serif;
+      margin-top: 5px;
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+
+<body class="container">
+  <div class="outer-panel">
+    <img class="qr-code" src="./images/image-qr-code.png" alt="QR code" />
+    <div class="title">Improve your front-end skills by building projects</div>
+    <div class="description">Scan the QR code to visit Frontend Mentor and take your coding skills to the next leve;
+    </div>
+  </div>
+
+  <div style="height: 20px"> </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">SamD3</a>.
+  </div>
+</body>
+
+</html>
